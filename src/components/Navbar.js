@@ -8,6 +8,7 @@ import { Typography, Avatar, Button } from "@mui/material";
 import { HomeOutlined } from "@mui/icons-material";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
+import EmailIcon from "@mui/icons-material/Email";
 
 export default function Navbar({ setPage }) {
   return (
@@ -30,7 +31,11 @@ export default function Navbar({ setPage }) {
       </Typography>
 
       <div className="nav-link-container">
-        <Button sx={{ color: "white" }} startIcon={<WorkHistoryIcon />}>
+        <Button
+          onClick={() => setPage("EXPERIENCE")}
+          sx={{ color: "white" }}
+          startIcon={<WorkHistoryIcon />}
+        >
           Experience
         </Button>
 
@@ -60,6 +65,7 @@ export default function Navbar({ setPage }) {
 
         <Button
           href="/umair_resume.pdf"
+          target="_blank"
           sx={{ color: "white" }}
           startIcon={<InsertDriveFileIcon />}
         >
@@ -68,19 +74,25 @@ export default function Navbar({ setPage }) {
       </div>
 
       <div className="contact-info">
-        <a href="https://www.linkedin.com/in/umair-iqbal-4a1535152/">
-          <LinkedInIcon fontSize="large" sx={{ color: "white" }} />
+        <a href="mailto:iqbalumairi@gmail.com" target="_blank">
+          <EmailIcon fontSize="large" sx={{ color: "white" }} />
         </a>
 
-        <a href="https://github.com/Umair-Iqbal-debug">
+        <a
+          href="https://www.linkedin.com/in/umair-iqbal-4a1535152/"
+          target="_blank"
+        >
+          <LinkedInIcon fontSize="large" sx={{ color: "white" }} />
+        </a>
+        <a href="https://github.com/Umair-Iqbal-debug" target="_blank">
           <GitHubIcon fontSize="large" sx={{ color: "white" }} />
         </a>
         <InstagramIcon fontSize="large" sx={{ color: "white" }} />
-        <a href="https://leetcode.com/UmairIqbal117/">
+        <a href="https://leetcode.com/UmairIqbal117/" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
+            width="35"
+            height="35"
             viewBox="0 0 24 24"
           >
             <path

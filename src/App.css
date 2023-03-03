@@ -8,7 +8,6 @@
   width: 100vw;
   overflow: scroll;
   background-image: url("../public/images/back.png");
-  background-attachment: fixed;
 }
 
 .app::-webkit-scrollbar {
@@ -18,7 +17,6 @@
 .intro {
   height: 100%;
   width: 100%;
-  background-color: #080710;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +26,7 @@
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   /* background-color: #080710; */
@@ -64,7 +63,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0.5em;
+  padding: 0.8em;
   position: relative;
   gap: 20px;
 }
@@ -90,24 +89,12 @@
   z-index: -999;
 }
 
-.shape:first-child {
-  background: linear-gradient(#1845ad, #23a2f6);
-  left: -80px;
-  top: -80px;
-}
-.shape:last-child {
-  background: linear-gradient(to right, #ff512f, #f09819);
-  right: -200px;
-  bottom: -80px;
-}
-
 .project-list {
   overflow: scroll;
   width: 100%;
   display: flex;
   gap: 1em;
   flex-wrap: wrap;
-  /* flex-grow: 1; */
   align-items: center;
   justify-content: center;
 }
@@ -120,4 +107,21 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.education-timeline-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+}
+.education-timeline-container::-webkit-scrollbar {
+  display: none;
+}
+.main-card-root-right-pane-main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

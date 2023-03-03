@@ -1,4 +1,4 @@
-import { Typography, Card, Avatar, Button } from "@mui/material";
+import { Typography, Card } from "@mui/material";
 import "./App.css";
 import { useState } from "react";
 import { createTheme, ThemeProvider } from "@mui/material";
@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import HelloWorld from "./components/HelloWorld";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
-import { Parallax, ParallaxLayer } from "@react-spring/web";
+import Experience from "./components/Experience";
 
 function App() {
   const theme = createTheme({
@@ -23,20 +23,21 @@ function App() {
   let mainContent = <HelloWorld />;
   if (pageState === "PROJECTS") mainContent = <Projects />;
   if (pageState === "EDUCATION") mainContent = <Education />;
+  if (pageState === "EXPERIENCE") mainContent = <Experience />;
 
   return (
     <ThemeProvider theme={theme}>
       <div className="app">
-        <div className="landing-page" onClick={() => console.log("clicked!")}>
+        <div className="landing-page">
           <Typography color={"white"} variant="h1" sx={{ zIndex: 999 }}>
             Hi, there my name is Umair Iqbal
           </Typography>
+
+          <Typography color={"white"} variant="h4" sx={{ zIndex: 999 }}>
+            Software Engineer
+          </Typography>
         </div>
         <div className="intro">
-          {/* <div className="background">
-            <div className="shape"></div>
-            <div className="shape"></div>
-          </div> */}
           <Card
             className="main-card"
             elevation={5}

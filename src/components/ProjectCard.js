@@ -12,16 +12,12 @@ function ProjectsCard({ title, desc, url }) {
     <Card
       sx={{
         maxWidth: 345,
+        minHeight: 272.53,
         borderRadius: 6,
         backgroundColor: "rgba(255,255,255,0.13)",
         backdropFilter: "blur(10px)",
       }}
     >
-      <CardMedia
-        sx={{ height: 140 }}
-        image="../public/images/chip_img.jfif"
-        title="green iguana"
-      />
       <CardContent>
         <Typography color={"white"} gutterBottom variant="h5" component="div">
           {title}
@@ -30,7 +26,7 @@ function ProjectsCard({ title, desc, url }) {
           {desc}
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions sx={{ position: "absolute", bottom: 0 }}>
         <Button href={url} sx={{ color: "white" }} startIcon={<GitHubIcon />} />
       </CardActions>
     </Card>
