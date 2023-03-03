@@ -1,0 +1,49 @@
+import React from "react";
+import { Typography, Button } from "@mui/material";
+import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
+
+export default function HelloWorld() {
+  return (
+    <div className="main-card-root-right-pane">
+      <Typography color="white" variant="h3" sx={{ marginBottom: 4 }}>
+        &lt;Hello World/&gt; &#x1F44B;!
+      </Typography>
+
+      <Typography fontSize={20} fontFamily={"roboto"} color={"whitesmoke"}>
+        Hi, there my name is Umair Iqbal, I am passionate about solving problems
+        through Software Development. I am a junior, majoring in Computer
+        Science at Stony Brook University, expected to graduate in Spring 2024.
+      </Typography>
+
+      <Typography fontSize={20} fontFamily={"roboto"} color={"whitesmoke"}>
+        You can click on the links on the left to explore my projects, resume or
+        previous work experiences and to learn more about me. I am always eager
+        to collaborate on an interesting project or talk about a project I have
+        made before so feel free to contact me via email.
+      </Typography>
+
+      <Typography fontSize={20} fontFamily={"roboto"} color={"whitesmoke"}>
+        I am currently looking for a Technology internship opportunitiy where I
+        can contribute code towards a greater purpose, also gain some skills and
+        meet some mentors.
+      </Typography>
+
+      <Typography fontSize={20} fontFamily={"roboto"} color={"whitesmoke"}>
+        Some of the technologies I am familiar with include Java, JavaScript,
+        Python, MERN stack...
+      </Typography>
+
+      <Button
+        startIcon={<ContactPhoneIcon />}
+        sx={{
+          color: "black",
+          backgroundColor: "white",
+          borderRadius: 2,
+        }}
+        fontSize="large"
+      >
+        Contact me
+      </Button>
+    </div>
+  );
+}

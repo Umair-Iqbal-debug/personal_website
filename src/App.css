@@ -7,6 +7,8 @@
   height: 100vh;
   width: 100vw;
   overflow: scroll;
+  background-image: url("../public/images/back.png");
+  background-attachment: fixed;
 }
 
 .app::-webkit-scrollbar {
@@ -20,21 +22,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* background-image: url("../public/images/back.png"); */
 }
 
-.projects {
+.landing-page {
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: #080710; */
 }
 
 .main-card {
-  width: 60%;
-  height: 65%;
+  width: 70%;
+  height: 75%;
 }
 
 .main-card-root {
@@ -69,6 +70,8 @@
 }
 .contact-info {
   margin-top: auto;
+  display: flex;
+  gap: 10px;
 }
 
 .background {
@@ -96,4 +99,25 @@
   background: linear-gradient(to right, #ff512f, #f09819);
   right: -200px;
   bottom: -80px;
+}
+
+.project-list {
+  overflow: scroll;
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  /* flex-grow: 1; */
+  align-items: center;
+  justify-content: center;
+}
+
+.project-list::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
