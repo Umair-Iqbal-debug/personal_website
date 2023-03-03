@@ -10,7 +10,7 @@ export default function HelloWorld() {
       </Typography>
       <div className="main-card-root-right-pane-main-text">
         <Typography fontSize={20} fontFamily={"roboto"} color={"whitesmoke"}>
-          Hi, there my name is Umair Iqbal, I am passionate about solving
+          Hi, there my name is <b>Umair Iqbal</b>, I am passionate about solving
           problems through Software Development. I am a junior, majoring in
           Computer Science at Stony Brook University, expected to graduate in
           Spring 2024.

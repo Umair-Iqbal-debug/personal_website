@@ -33,6 +33,12 @@ function Projects() {
           desc="A MIPS command line program used to convert to and from different bases."
           url="https://github.com/Umair-Iqbal-debug/Number-Converter-MIPS"
         />
+
+        <ProjectsCard
+          title="Portfolio Website"
+          desc="A personal portfolio website I made using React and MUI (Yes you are on it rn)."
+          url="https://github.com/Umair-Iqbal-debug/personal_website"
+        />
       </div>
     </div>
   );
