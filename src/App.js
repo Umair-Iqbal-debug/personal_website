@@ -29,20 +29,20 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="app">
         <div className="landing-page">
-          <Typography color={"white"} variant="h1" sx={{ zIndex: 999 }}>
+          <h1 className="header">
             Hi, there my name is Umair Iqbal
-          </Typography>
-
-          <Typography color={"white"} variant="h4" sx={{ zIndex: 999 }}>
+          </h1>
+          <h3 className="header-second">
             Software Engineer
-          </Typography>
+          </h3>
         </div>
         <div className="intro">
           <Card
             className="main-card"
             elevation={5}
             sx={{
-              borderRadius: 10,
+              flex:1,
+              borderRadius: 5,
               backgroundColor: "rgba(255,255,255,0.13)",
               backdropFilter: "blur(10px)",
             }}

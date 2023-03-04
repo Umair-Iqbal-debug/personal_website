@@ -4,9 +4,9 @@ import { Typography } from "@mui/material";
 export default function Experience() {
   return (
     <div className="main-card-root-right-pane">
-      <Typography color="white" variant="h3" sx={{ marginBottom: 4 }}>
+      <h2 className="titles">
         &lt;Experience/&gt; 🧑🏽‍💻
-      </Typography>
+      </h2>
       <div className="main-card-root-right-pane-main-text">
         <Typography fontSize={20} fontFamily={"roboto"} color={"whitesmoke"}>
           My first and only internship I landed was last summer at The Davey

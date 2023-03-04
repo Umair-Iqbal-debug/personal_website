@@ -11,9 +11,9 @@ import { timelineItemClasses } from "@mui/lab/TimelineItem";
 export default function Education() {
   return (
     <div className="main-card-root-right-pane">
-      <Typography color="white" variant="h3" sx={{ marginBottom: 4 }}>
+      <h2 className="titles">
         &lt;Education/&gt; 🎓
-      </Typography>
+      </h2>
 
       <div className="education-timeline-container">
         <Timeline

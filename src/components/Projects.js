@@ -5,9 +5,9 @@ import ProjectsCard from "./ProjectCard";
 function Projects() {
   return (
     <div className="main-card-root-right-pane">
-      <Typography color="white" variant="h3" sx={{ marginBottom: 4 }}>
+      <h2 className="titles">
         &lt;Projects/&gt;🧪
-      </Typography>
+      </h2>
 
       <div className="project-list">
         <ProjectsCard
