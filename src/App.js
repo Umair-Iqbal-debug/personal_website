@@ -29,20 +29,16 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="app">
         <div className="landing-page">
-          <h1 className="header">
-            Hi, there my name is Umair Iqbal
-          </h1>
-          <h3 className="header-second">
-            Software Engineer
-          </h3>
+          <h1 className="header">Hi there, my name is Umair Iqbal</h1>
+          <h3 className="header-second">Software Engineer</h3>
         </div>
         <div className="intro">
           <Card
             className="main-card"
             elevation={5}
             sx={{
-              flex:1,
               borderRadius: 5,
+              maxWidth: "1200px",
               backgroundColor: "rgba(255,255,255,0.13)",
               backdropFilter: "blur(10px)",
             }}
