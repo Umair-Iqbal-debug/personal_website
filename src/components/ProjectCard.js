@@ -16,6 +16,7 @@ function ProjectsCard({ title, desc, url }) {
         borderRadius: 6,
         backgroundColor: "rgba(255,255,255,0.13)",
         backdropFilter: "blur(10px)",
+        position: "relative",
       }}
     >
       <CardContent>
