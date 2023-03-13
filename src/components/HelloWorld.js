@@ -47,8 +47,10 @@ export default function HelloWorld() {
           sx={{ fontFamily: "'Roboto Mono', monospace" }}
           color={"#13263e"}
         >
-          Some of the technologies I am familiar with include Java, JavaScript,
-          Python, MERN stack...
+          I am passionate about solving problems through software development
+          whether that’s creating a full stack web app or a mobile app. Some of
+          the technologies I’m proficient with include JavaScript, Python, Java,
+          React, HTML,CSS,Express, MongoDB and Node.
         </Typography>
       </div>
     </div>
