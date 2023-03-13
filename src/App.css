@@ -3,15 +3,21 @@
   margin: 0;
 }
 
-.app::-webkit-scrollbar {
+*::-webkit-scrollbar {
   display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .app {
   height: 100vh;
   width: 100vw;
   overflow: scroll;
-  background-image: url("../public/images/back.png");
+  background-image: url("../public/images/mountains.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -99,7 +105,7 @@ li {
 }
 
 .titles {
-  color: white;
+  color: #173d4f;
   margin-bottom: 4;
   font-weight: bolder;
   font-family: "Tilt Warp", "cursive";

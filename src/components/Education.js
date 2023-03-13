@@ -11,9 +11,7 @@ import { timelineItemClasses } from "@mui/lab/TimelineItem";
 export default function Education() {
   return (
     <div className="main-card-root-right-pane">
-      <h2 className="titles">
-        &lt;Education/&gt; 🎓
-      </h2>
+      <h2 className="titles">&lt;Education/&gt; 🎓</h2>
 
       <div className="education-timeline-container">
         <Timeline
@@ -30,7 +28,7 @@ export default function Education() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography color="white" variant="h6" sx={{ marginBottom: 4 }}>
+              <Typography color="#173d4f" variant="h6" sx={{ marginBottom: 4 }}>
                 Stony Brook University CS (2022-2024) NY🗽
               </Typography>
             </TimelineContent>
@@ -41,7 +39,7 @@ export default function Education() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography color="white" variant="h6" sx={{ marginBottom: 4 }}>
+              <Typography color="#173d4f" variant="h6" sx={{ marginBottom: 4 }}>
                 Suffolk Community College CS (2020-2022) NY🗽
               </Typography>
             </TimelineContent>
@@ -62,7 +60,7 @@ export default function Education() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography color="white" variant="h6" sx={{ marginBottom: 4 }}>
+              <Typography color="#173d4f" variant="h6" sx={{ marginBottom: 4 }}>
                 New York Tech CS (1 semester only) NY🗽
               </Typography>
             </TimelineContent>
@@ -73,7 +71,7 @@ export default function Education() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography color="white" variant="h6" sx={{ marginBottom: 4 }}>
+              <Typography color="#173d4f" variant="h6" sx={{ marginBottom: 4 }}>
                 Longwood High School (12th grade only) NY🗽
               </Typography>
             </TimelineContent>
@@ -85,7 +83,7 @@ export default function Education() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography color="white" variant="h6" sx={{ marginBottom: 4 }}>
+              <Typography color="#173d4f" variant="h6" sx={{ marginBottom: 4 }}>
                 Sanjivani International Student(5th - 11th, ICSE Board) IN
                 &#127470;
               </Typography>
@@ -107,7 +105,7 @@ export default function Education() {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography color="white" variant="h6" sx={{ marginBottom: 4 }}>
+              <Typography color="#173d4f" variant="h6" sx={{ marginBottom: 4 }}>
                 Abotts Hill Elementary (KG - 4th) ATL🍑
               </Typography>
             </TimelineContent>

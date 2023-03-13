@@ -20,15 +20,19 @@ function ProjectsCard({ title, desc, url }) {
       }}
     >
       <CardContent>
-        <Typography color={"white"} gutterBottom variant="h5" component="div">
+        <Typography color={"#173d4f"} gutterBottom variant="h5" component="div">
           {title}
         </Typography>
-        <Typography color={"white"} variant="body2">
+        <Typography color={"#13263e"} variant="body2">
           {desc}
         </Typography>
       </CardContent>
       <CardActions sx={{ position: "absolute", bottom: 0 }}>
-        <Button href={url} sx={{ color: "white" }} startIcon={<GitHubIcon />} />
+        <Button
+          href={url}
+          sx={{ color: "#13263e" }}
+          startIcon={<GitHubIcon />}
+        />
       </CardActions>
     </Card>
   );

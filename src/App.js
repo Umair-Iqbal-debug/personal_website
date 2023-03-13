@@ -1,4 +1,4 @@
-import { Typography, Card } from "@mui/material";
+import { Card } from "@mui/material";
 import "./App.css";
 import { useState } from "react";
 import { createTheme, ThemeProvider } from "@mui/material";
@@ -7,7 +7,6 @@ import HelloWorld from "./components/HelloWorld";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
-
 function App() {
   const theme = createTheme({
     typography: {
