@@ -17,6 +17,9 @@
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  box-sizing: border-box;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 .landing-page {

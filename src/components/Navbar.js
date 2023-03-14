@@ -20,7 +20,7 @@ export default function Navbar({ setPage }) {
           sx={{ width: 200, height: 200 }}
         />
 
-        <Typography color={"173d4f"} variant="h4">
+        <Typography color={"#173d4f"} variant="h4">
           Umair Iqbal
         </Typography>
       </div>
