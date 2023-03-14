@@ -1,16 +1,12 @@
 * {
   padding: 0;
   margin: 0;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 *::-webkit-scrollbar {
   display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-* {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }
 
 .app {
@@ -21,7 +17,6 @@
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  padding: 1em;
 }
 
 .landing-page {
