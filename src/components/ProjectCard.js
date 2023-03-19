@@ -2,12 +2,15 @@ import * as React from "react";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import VisibilityIcon from "@mui/icons-material/Visibility";
 
-function ProjectsCard({ title, desc, url }) {
+function ProjectsCard({ title, desc, url, liveDemoUrl }) {
+  const TITLE_BLUE = "#173d4f";
+  const SECONDARY_BLUE = "#13263e";
+
   return (
     <Card
       sx={{
@@ -20,19 +23,32 @@ function ProjectsCard({ title, desc, url }) {
       }}
     >
       <CardContent>
-        <Typography color={"#173d4f"} gutterBottom variant="h5" component="div">
+        <Typography
+          color={TITLE_BLUE}
+          gutterBottom
+          variant="h5"
+          component="div"
+        >
           {title}
         </Typography>
-        <Typography color={"#13263e"} variant="body2">
+        <Typography color={SECONDARY_BLUE} variant="body2">
           {desc}
         </Typography>
       </CardContent>
       <CardActions sx={{ position: "absolute", bottom: 0 }}>
         <Button
           href={url}
-          sx={{ color: "#13263e" }}
+          sx={{ color: SECONDARY_BLUE }}
           startIcon={<GitHubIcon />}
         />
+
+        {liveDemoUrl && (
+          <Button
+            href={liveDemoUrl}
+            sx={{ color: SECONDARY_BLUE }}
+            startIcon={<VisibilityIcon />}
+          />
+        )}
       </CardActions>
     </Card>
   );
