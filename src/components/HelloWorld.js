@@ -36,9 +36,9 @@ export default function HelloWorld() {
           sx={{ fontFamily: "'Roboto Mono', monospace" }}
           color={"#13263e"}
         >
-          I am currently looking for a Technology internship opportunitiy where
-          I can contribute code towards a greater purpose, also gain some skills
-          and meet some mentors.
+          I am currently looking for a software development internship
+          opportunitiy where I can contribute code towards a greater purpose,
+          also gain some skills and meet some mentors.
         </Typography>
 
         <Typography
