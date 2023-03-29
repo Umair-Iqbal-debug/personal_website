@@ -4,6 +4,9 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+:root {
+  --text-color: #13263e;
+}
 
 *::-webkit-scrollbar {
   display: none;
@@ -78,7 +81,7 @@ li {
   align-items: center;
   padding: 2em;
   gap: 20px;
-  height: 500px;
+  height: 290px;
 }
 .contact-info {
   margin-top: auto;
@@ -107,6 +110,12 @@ li {
   margin-bottom: 4;
   font-weight: bolder;
   font-family: "Tilt Warp", "cursive";
+}
+
+.text {
+  color: var(--text-color);
+  font-family: "Roboto Mono";
+  line-height: 1.4;
 }
 .links {
   flex-direction: column;
@@ -187,6 +196,10 @@ li {
   .header-second {
     font-size: 32px;
   }
+
+  .text {
+    font-size: 20px;
+  }
   .intro {
   }
   .main-card {
@@ -203,6 +216,7 @@ li {
   }
   .main-card-root-right-pane {
     flex: 2;
+    height: 500px;
   }
   .education-timeline-container {
     align-items: flex-start;

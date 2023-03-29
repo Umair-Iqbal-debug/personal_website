@@ -6,85 +6,35 @@ export default function Experience() {
     <div className="main-card-root-right-pane">
       <h2 className="titles">&lt;Experience/&gt; 🧑🏽‍💻</h2>
       <div className="main-card-root-right-pane-main-text">
-        <Typography
-          fontSize={20}
-          fontFamily={"roboto"}
-          sx={{ fontFamily: "'Roboto Mono', monospace" }}
-          color={"#13263e"}
-        >
+        <p className="text">
           My first and only internship I landed was last summer at The Davey
           Tree Expert Company, as a <b>Software Engineer Intern</b>. This was a
           remote opportunity, during my time there that is from June 2022 -
-          September 2022, I had the chance to collaborate with highly skilled
-          mentors and contribute code towards the creation of an internal
-          SPA(single page application) used for creation of Business Partners.
-          We used a JavaScript front-end library called SAPUI5.
-        </Typography>
+          September 2022.
+        </p>
 
-        <Typography
-          fontSize={20}
-          fontFamily={"roboto"}
-          sx={{ fontFamily: "'Roboto Mono', monospace" }}
-          color={"#13263e"}
-        >
-          Some of the things I did there Include
-        </Typography>
-        <ul>
-          <li>
-            <Typography
-              fontSize={20}
-              fontFamily={"roboto"}
-              sx={{ fontFamily: "'Roboto Mono', monospace" }}
-              color={"#13263e"}
-            >
-              Developed internal front-end SPA for the creation and maintenance
-              of
-            </Typography>
-          </li>
-          <li>
-            <Typography
-              fontSize={20}
-              fontFamily={"roboto"}
-              sx={{ fontFamily: "'Roboto Mono', monospace" }}
-              color={"#13263e"}
-            >
-              Business partners using SAPUI5 (Javascript UI framework)
-            </Typography>
-          </li>
-          <li>
-            <Typography
-              fontSize={20}
-              fontFamily={"roboto"}
-              sx={{ fontFamily: "'Roboto Mono', monospace" }}
-              color={"#13263e"}
-            >
-              Refactored JS promises to async await and other features to ES6
-            </Typography>
-          </li>
-          <li>
-            <Typography
-              fontSize={20}
-              fontFamily={"roboto"}
-              sx={{ fontFamily: "'Roboto Mono', monospace" }}
-              color={"#13263e"}
-            >
-              Improved web application performance by writing concise select
-              queries in oData read calls
-            </Typography>
-          </li>
-          <li>
-            <Typography
-              fontSize={20}
-              fontFamily={"roboto"}
-              sx={{ fontFamily: "'Roboto Mono', monospace" }}
-              color={"#13263e"}
-            >
-              Developed API to fetch Business partner information and set the
-              client side data model, leading to increase in code readability,
-              ease of debugging and maintenance.
-            </Typography>
-          </li>
-        </ul>
+        <p className="text">
+          As the name suggests they provide residential and commercial tree and
+          landscape services. They are the largest employee-owned company in
+          Ohio.
+        </p>
+
+        <p className="text">
+          I co-led the development of an internal app called Davey pro, which is
+          being used to update and add Davey’s clients. We used
+          <b> SAPUI5</b> - a JavaScript front-end framework to build the app.
+        </p>
+
+        <p className="text">
+          I worked on creating an API that fetched a business partners
+          information from the OData backend and set the client-side model. This
+          API was used in different pages across the app.
+        </p>
+
+        <p className="text">
+          The app was deployed on the SAP Fiori Launchpad and is being used by
+          500 people across USA and Canada.
+        </p>
       </div>
     </div>
   );
