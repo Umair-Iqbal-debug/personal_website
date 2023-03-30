@@ -15,7 +15,7 @@ function ProjectsCard({ title, desc, url, liveDemoUrl }) {
     <Card
       sx={{
         maxWidth: 345,
-        minHeight: 290.53,
+        minHeight: 239.53,
         borderRadius: 6,
         backgroundColor: "rgba(255,255,255,0.13)",
         backdropFilter: "blur(10px)",
