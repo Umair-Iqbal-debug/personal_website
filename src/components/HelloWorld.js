@@ -21,16 +21,16 @@ export default function HelloWorld() {
         </p>
 
         <p className="text">
-          I am currently looking for a software development internship
-          opportunitiy where I can contribute code towards a greater purpose,
-          also gain some skills and meet some mentors.
+          I am currently looking for a software development internship 
+          where I can contribute code towards a greater purpose, 
+          also gain some skills, and meet some mentors.
         </p>
 
         <p className="text">
-          I am passionate about solving problems through software development
-          whether that’s creating a full stack web app or a mobile app. Some of
-          the technologies I’m proficient with include JavaScript, Python, Java,
-          React, HTML,CSS,Express, MongoDB and Node.
+          I am passionate about solving problems 
+          through software development whether that’s creating a full-stack web app or a mobile app. 
+          Some of the technologies 
+          I’m proficient with include JavaScript, Python, Java, React, HTML, CSS, Express, MongoDB, and Node
         </p>
       </div>
     </div>
