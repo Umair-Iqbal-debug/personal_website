@@ -42,7 +42,7 @@ function App() {
             sx={{
               borderRadius: 5,
               maxWidth: "1200px",
-              backgroundColor: "rgba(255,255,255,0.01)",
+              backgroundColor: "rgba(255,255,255,0.13)",
               backdropFilter: "blur(10px)",
             }}
           >
