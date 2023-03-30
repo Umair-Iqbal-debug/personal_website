@@ -167,13 +167,13 @@ li {
 }
 .header {
   color: white;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bolder;
   font-family: "Tilt Warp", "cursive";
 }
 .header-second {
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bolder;
   font-family: "Tilt Warp", "cursive";
 }
@@ -241,18 +241,20 @@ li {
   .titles {
     font-size: 52px;
   }
+
+  .typewriter h1 {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 0.15em solid var(--text-color);
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: 1em; */
+    animation: typing 1.5s steps(32), blink-caret 0.75s step-end infinite;
+    animation-fill-mode: forwards;
+  }
 }
 @media screen and (min-width: 1440px) {
-}
-
-.typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid var(--text-color);
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  /* letter-spacing: 1em; */
-  animation: typing 1.5s steps(32), blink-caret 0.75s step-end infinite;
-  animation-fill-mode: forwards;
 }
 
 /* The typing effect */
