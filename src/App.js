@@ -28,8 +28,12 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="app">
         <div className="landing-page">
-          <h1 className="header">Hi there, my name is Umair Iqbal</h1>
-          <h3 className="header-second">Software Engineer</h3>
+          <div className="typewriter">
+            <h1 className="header">Hi there, my name is Umair Iqbal</h1>
+          </div>
+          <div className="typewriter">
+            <h3 className="header-second">Software Engineer</h3>
+          </div>
         </div>
         <div className="intro">
           <Card
