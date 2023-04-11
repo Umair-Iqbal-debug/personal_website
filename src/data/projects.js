@@ -1,9 +1,17 @@
 const projects = [
+  //
   {
     title: "Playlister",
     desc: "It is a full-stack MERN application built as the final project of Software development class. You can do all CRUD operations with playlists of YouTube songs and listen,like and comment on playlists made by others.",
     url: "https://github.com/Umair-Iqbal-debug/playlister",
     liveDemoUrl: "https://playlister-z6nl.onrender.com",
+  },
+
+  {
+    title: "Search Algorithm Visualiser",
+    desc: "A algorithm visualiser for popular search algorithms like breadth first search and depth first search.",
+    url: "https://github.com/Umair-Iqbal-debug/algorithm_visualiser",
+    liveDemoUrl: "https://search-algovisualiser.onrender.com/",
   },
   {
     title: "Text Editor",
