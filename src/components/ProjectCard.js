@@ -38,14 +38,14 @@ function ProjectsCard({ title, desc, url, liveDemoUrl }) {
       <CardActions sx={{ position: "absolute", bottom: 0 }}>
         <Button
           href={url}
-          sx={{ color: SECONDARY_BLUE }}
+          sx={{ color: SECONDARY_BLUE, minWidth: "auto", marginLeft: "1em" }}
           startIcon={<GitHubIcon />}
         />
 
         {liveDemoUrl && (
           <Button
             href={liveDemoUrl}
-            sx={{ color: SECONDARY_BLUE }}
+            sx={{ color: SECONDARY_BLUE, minWidth: "auto" }}
             startIcon={<VisibilityIcon />}
           />
         )}
