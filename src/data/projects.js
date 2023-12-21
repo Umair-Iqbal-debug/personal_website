@@ -1,5 +1,9 @@
 const projects = [
-  //
+  {
+    title:"Geomapper",
+    desc:"A simple to use but versatile map building application for data visualization",
+    liveDemoUrl:"https://geomapper-c6jr.onrender.com",
+  },
   {
     title: "Playlister",
     desc: "It is a full-stack MERN application built as the final project of Software development class. You can do all CRUD operations with playlists of YouTube songs and listen,like and comment on playlists made by others.",
